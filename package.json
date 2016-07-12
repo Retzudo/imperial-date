@@ -4,7 +4,7 @@
   "description": "Returns the Imperial date (WH40k) for a given Date object.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape tests/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Retzudo/imperial-date/issues"
   },
-  "homepage": "https://github.com/Retzudo/imperial-date#readme"
+  "homepage": "https://github.com/Retzudo/imperial-date#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
 }
