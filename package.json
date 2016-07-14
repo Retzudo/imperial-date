@@ -1,6 +1,6 @@
 {
   "name": "imperial-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns the Imperial date (WH40k) for a given Date object.",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,7 @@
     "date",
     "warhammer",
     "40000",
-    "40",
-    "000",
+    "40,000",
     "40k"
   ],
   "author": "Retzudo",
